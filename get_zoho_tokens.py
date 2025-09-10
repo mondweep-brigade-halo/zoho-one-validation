@@ -3,7 +3,7 @@ import json
 import sys
 
 def get_tokens(client_id, client_secret, code):
-    url = "https://accounts.zoho.com/oauth/v2/token"
+    url = "https://accounts.zoho.eu/oauth/v2/token"
     params = {
         "grant_type": "authorization_code",
         "client_id": client_id,
